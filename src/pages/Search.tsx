@@ -130,7 +130,7 @@ function BookingModal({ spot, onClose, onBook, onShowDirections }: BookingModalP
           <p className="text-gray-600">{spot.address}</p>
           <div className="flex items-center justify-between">
             <span className="text-gray-700">Price per hour:</span>
-            <span className="font-semibold">${spot.price}</span>
+            <span className="font-semibold">₹{spot.price}</span>
           </div>
           <div className="flex items-center justify-between">
             <span className="text-gray-700">Available spots:</span>

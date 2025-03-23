@@ -44,7 +44,7 @@ export default function BookingDetails() {
             
             <div className="flex items-center space-x-2">
               <DollarSign className="h-5 w-5 text-indigo-600" />
-              <span>$2/hour</span>
+              <span>₹2/hour</span>
             </div>
 
             <button
